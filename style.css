@@ -91,7 +91,7 @@
 
 #home::before {
     content: "";
-    background: url('/b1.jpg') no-repeat center center/cover;
+    background: url('b1.jpg') no-repeat center center/cover;
     height: 100%;
     width: 100%;
     position: absolute;
@@ -170,7 +170,7 @@
 
 #Mens::before {
     content: "";
-    background: url('/b2.jpg') no-repeat center center/cover;
+    background: url('b2.jpg') no-repeat center center/cover;
     height: 100%;
     width: 100%;
     position: absolute;
