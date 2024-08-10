@@ -1,0 +1,199 @@
+/* css reset */
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* navigation bar  */
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+
+}
+
+#logo {
+    margin: 20px;
+    padding: 12px;
+    /* font-family: ; */
+
+}
+
+#logo a {
+    margin: 0px;
+    padding: 10px 2px 2px 40px;
+    font-family: 'Fuggles', cursive;
+    font-size: 2.9rem;
+    text-decoration: none;
+    color: rgb(157, 244, 27);
+
+}
+
+#navbar ul {
+    display: flex;
+
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 3px 38px;
+    text-decoration: none;
+    border-radius: 20px;
+    color: aliceblue;
+    font-size: 1.4rem;
+    /* font-family: 'Fuggles', cursive; */
+    font-family: 'Playfair Display', serif;
+
+}
+
+#navbar ul li a:hover {
+    background-color: aliceblue;
+    color: rgb(4 51 3);
+}
+
+.box {
+    position: absolute;
+    right: 50px;
+}
+
+/* Home section  */
+
+#home {
+    display: flex;
+    padding: 12px;
+    margin: 0px;
+    height: 262px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* position: relative; */
+}
+
+#home::before {
+    content: "";
+    background: url('/b1.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+    z-index: -1;
+    opacity: 0.9;
+}
+
+#home h1 {
+    font-size: 4.9rem;
+    font-family: 'Young Serif', serif;
+    color: rgb(4 51 3);
+    text-shadow: 1px 2px rgb(157, 244, 27);
+    padding-top: 100px;
+    /* text-overflow: ; */
+}
+
+#home p {
+    font-size: 1.2rem;
+    color: aquamarine;
+    text-shadow: 1px 1px red;
+    text-align: center;
+    padding: 0px 50px;
+}
+
+.btn {
+    font-size: 1.2rem;
+    padding: 7px 50px;
+    margin: 20px 20px;
+    border-radius: 112px;
+    border-color: aquamarine;
+    cursor: pointer;
+    font-family: 'Young Serif', serif;
+    text-shadow: 1px 1px aquamarine;
+}
+
+
+
+/* Mens section  */
+
+#Mens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    height: 400px;
+    margin-top: 225px;
+    /* background-color: aqua; */
+}
+
+#mens-container {
+    display: flex;
+    align-items: center;
+}
+
+.men2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    /* color: ; */
+    font-size: 1.3rem;
+    font-family: 'Young Serif', serif;
+    color: rgb(4 51 3);
+
+}
+
+#Mens h1 {
+    font-size: 3.2rem;
+    font-family: 'Young Serif', serif;
+    padding: 20px 20px;
+    margin: 0%;
+    text-decoration: dashed;
+
+}
+
+#Mens::before {
+    content: "";
+    background: url('/b2.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.men1 {
+    padding: 20px 30px;
+    margin: 30px 20px;
+    text-align: center;
+    /* border: 2px solid aquamarine;  */
+    border-radius: 30px;
+}
+
+.men1 img {
+    height: 404px;
+    width: 275px;
+    border-radius: 30px;
+
+}
+
+.men1:hover{
+    background-color: rgb(167, 253, 124);
+}
