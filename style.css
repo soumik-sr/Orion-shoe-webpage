@@ -197,3 +197,133 @@
 .men1:hover{
     background-color: rgb(167, 253, 124);
 }
+
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+    #navbar ul li a {
+        padding: 3px 20px;
+        font-size: 1.2rem;
+    }
+
+    #home h1 {
+        font-size: 3.5rem;
+    }
+
+    #home p {
+        font-size: 1rem;
+        padding: 0 20px;
+    }
+
+    .btn {
+        padding: 7px 30px;
+    }
+
+    .men1 img {
+        height: 320px;
+        width: 220px;
+    }
+
+    #Mens h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    #navbar ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #navbar ul li {
+        width: 100%;
+        text-align: center;
+        padding: 5px 0;
+    }
+
+    .box {
+        position: static;
+        margin-top: 10px;
+        text-align: center;
+        width: 100%;
+    }
+
+    #home {
+        height: auto;
+        padding: 40px 10px;
+    }
+
+    #home h1 {
+        font-size: 2.5rem;
+        padding-top: 60px;
+        text-align: center;
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: 7px 25px;
+    }
+
+    #Mens {
+        margin-top: 150px;
+        height: auto;
+    }
+
+    #mens-container {
+        flex-direction: column;
+    }
+
+    .men1 {
+        margin: 20px 0;
+    }
+
+    .men1 img {
+        height: auto;
+        width: 80vw;
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #logo a {
+        font-size: 2rem;
+        padding: 10px;
+    }
+
+    #navbar ul li a {
+        font-size: 1rem;
+        padding: 8px 15px;
+    }
+
+    #home h1 {
+        font-size: 2rem;
+    }
+
+    #home p {
+        font-size: 0.9rem;
+        padding: 0 10px;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+        padding: 6px 20px;
+    }
+
+    #Mens h1 {
+        font-size: 2rem;
+    }
+
+    .men2 {
+        font-size: 1rem;
+    }
+
+    .men1 img {
+        width: 90vw;
+    }
+}
+
